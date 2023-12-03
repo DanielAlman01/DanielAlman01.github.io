@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeon Technology</title>
+    <link rel="stylesheet" href="stylle.css">
+</head>
+
+<body onload="ObtenerSeccion()">
+
+    <!--Menu de navegacion-->
+    <nav class="navega_princi">
+        <div>
+            <img class="logo1" src="img/logo.jpg" alt="">
+        </div>
+        <div class="menu">
+            <a class="menu_letras" href="#diseño">Diseño</a>
+            <a class="menu_letras" href="#Equipo">Equipo</a>
+            <a class="menu_letras" href="#Procesos">Procesos</a>
+            <a class="menu_letras" href="#Mobile">Mobile</a>
+            <a class="menu_letras" href="#Contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <!--Seccion de inicio-->
+    <section class="fondo_inicio">
+        <h3 class="tex_so">Solution</h3>
+        <h1 id="tituloentra0" class="titulo_web tex_prin"></h1>
+        <p id="parrafoentra0" class="tex_p"></p>
+        <button class="boton_inicio">Ver productos</button>
+    </section>
+
+    <!--Nuestros enfoques-->
+    <section id="diseño" class="cartas_procesos">
+        <div class="acomodar_procesos">
+            <div class="orienta_proceso">
+                <img class="img_proceso" alt="" id="imagen0">
+                <h2 id="titulo0"></h2>
+                <button class="boton_carta">Ver mas</button>
+            </div>
+            <div class="orienta_proceso">
+                <img class="img_proceso" alt="" id="imagen1">
+                <h2 id="titulo1"></h2>
+                <button class="boton_carta">Ver mas</button>
+            </div>
+            <div class="orienta_proceso">
+                <img class="img_proceso" alt="" id="imagen2">
+                <h2 id="titulo3"></h2>
+                <button class="boton_carta">Ver mas</button>
+            </div>
+            <div class="orienta_proceso">
+                <img class="img_proceso" alt="" id="imagen3">
+                <h2 id="titulo3"></h2>
+                <button class="boton_carta">Ver mas</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Como se crea una web-->
+    <section class="crea_diseño">
+        <div class="contenedor_mitad">
+            <div class="contenedor_mitad_diseño">
+                <h2 id="titulo4" class="titulo_web"></h2>
+                <p id="parrafo0" class="parrafo_web"></p>
+                <button class="boton_web">Leer mas</button>
+            </div>
+            <div class="contenedor_mitad_diseño mitad2">
+                <img class="img_manos" width="100%" alt="" id="creaimagen0">
+            </div>
+        </div>
+
+    </section>
+
+    <!--Integrantes del equipo-->
+    <section id="Equipo" class="integrantes">
+        <div class="contenedor_inte">
+            <div class="contenido">
+                <p class="parrafo_web" id="parradoequipo0"></p>
+                <img alt="" id="imagenperso0">
+                <h3 class="font_int" id="nombreperso0"></h3>
+                <h4>Programador</h4>
+            </div>
+            <div class="contenido">
+                <p class="parrafo_web" id="parradoequipo1"></p>
+                <img alt="" id="imagenperso1">
+                <h3 class="font_int" id="nombreperso1"></h3>
+                <h4>Programador</h4>
+            </div>
+            <div class="contenido">
+                <p class="parrafo_web" id="parradoequipo2"></p>
+                <img alt="" id="imagenperso2">
+                <h3 class="font_int" id="nombreperso2"></h3>
+                <h4>Diseñador</h4>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Preceso de creacion de un produto-->
+    <section id="Procesos" class="pre_principal">
+        <div class="pre_producto">
+            <div class="pre-conte1">
+                <img class="img_pre" alt="" id="imagenproducto0">
+            </div>
+            <div class="pre-conte2">
+                <h1 class="titulo_web" id="tituloweb"></h1>
+                <div class="ul_conte">
+                    <p class="li_conte">- Creasion de un modelo</p>
+                    <p class="li_conte">- Diseño del modelo</p>
+                    <p class="li_conte">- Cambios</p>
+                    <p class="li_conte">- Produccion en desarrollo del modelo</p>
+                    <p class="li_conte">- Entrega del producto</p>
+                </div>
+                <button class="boton_web">Contactar</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Creacion de pagina para telefonos-->
+    <section id="Mobile" class="contenedor_crea">
+        <div class="contenedor_mitad2">
+            <div class="centrar">
+                <h2 class="titulo_web telefono" id="titulofinal"></h2>
+                <p class="li_conte telefono" id="parrafofinal"></p>
+                <button class="boton_web telefono_boton">Ver mas</button>
+            </div>
+            <div>
+                <img class="img_crea" alt="" id="imagenfinal">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="Contacto">
+        <div class="centrar_from">
+            <div class="formulario">
+                <h1 class="font_int espacio">Formulario de Contacto</h1>
+                <form>
+                    <label class="contenido1" for="nombre">Nombre:</label>
+                    <input class="contenido1 interno" type="text" name="nombre" required><br><br>
+
+                    <label class="contenido1" for="email">Correo Electrónico:</label>
+                    <input class="contenido1 interno" type="email" name="email" required><br><br>
+
+                    <label class="contenido1" for="comentarios">Comentarios:</label><br>
+                    <textarea class="contenido1 interno" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+                    <input class="boton_web" type="submit" value="Enviar">
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer_princi">
+        <div>
+            <img class="logo1" src="img/logo2.jpg" alt="">
+        </div>
+        <div class="menu">
+            <p class="color_der">© 2023 AEON TECHNOLOGY. TODOS LOS DERECHOS RESERVADOS.</p>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
